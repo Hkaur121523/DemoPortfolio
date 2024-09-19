@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehakpreet Kaur Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+   
+<body>
+    <header id="head">
+        <nav>
+            <div class="logo">
+                <a href="#footer"><img src="images/logo.png" width="200px"></a>
+            </div>
+            <div class="navbar" id="navbar">
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    
+       <button class="headBtn"  id="headBtn type="submit">Get in Touch</button>
+                     </ul>
+            </div>
+                    <i class="fa-solid fa-bars hamburger-menu"></i> 
+                            
+        </nav>  
+        </header>  
+
+        <section class="about">
+            <div class="maxWidth" id="maxWidth">
+                <div class="about-content">
+                    <div class="reality">
+                        <h1>Get to <span class="highlight">Know Me</span></h1>
+        
+                        <p class="lead">Crafting Digital Experiences with Code and Creativity.</p>
+                        
+                        <p>As a web developer, I specialize in creating responsive websites that not only look great but also function smoothly across all devices. </p>
+                        
+                        <p>In parallel, my content writing expertise helps me craft compelling stories and engaging blog posts, articles, and web content.</p>
+    
+                        
+                       <button class="hireBtn">Work with me</button>
+                    </div>
+                    <div class="profile">
+                        <img src="images/Profile.jpg">
+                    </div>
+                </div>
+         
+            </div>
+        </section>
+        <section class="help">
+            <div class="maxWidth" id="maxWidth">
+                <div class="help-content">
+                    <h2 class="sub-heading">HOW CAN I ASSIST YOU?</h2>
+                <h1 class="main-heading">Kickstart Your Journey to Success</h1>
+                <p class="description">Let’s provide you with the information you need.
+                    Which of these options resonates with you?</p>
+                </div>
+                
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="maxWidth" id="maxWidth">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-image"><img src="images/Content-Writing.jpg" height="200px"></div>
+                        <h2 class="card-title">Content Writing</h2>
+                        <p class="card-description">
+                            I excel at producing content that resonates with your brand’s unique voice. From engaging blog posts and compelling website copy to impactful marketing materials, I focus on crafting words that inform, inspire, and persuade. My goal is to help your business shine in the competitive online landscape.
+                        </p>
+                        <div class="cardBtn">
+                           
+                            <button class="card-button">Book now</button>
+                        </div>
+                   
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-image"><img src="images/web_ilY3NoA.webp" height="200px"></div>
+                        <h2 class="card-title">Website Designer</h2>
+                        <p class="card-description">
+                            Your website is the gateway to your brand. I specialize in crafting eye-catching, responsive designs that integrate flawless functionality, ensuring your site looks exceptional and operates seamlessly. Let’s collaborate to create a digital experience that truly resonates with your audience.
+                        </p>
+                        <div class="cardBtn"> 
+                            <button class="card-button" >Book now</button>
+                        </div>
+                       
+                    </div>
+                </div>
+                </div>
+        </section>
+        <section id="portfolio">
+            <div class="maxWidth" id="maxWidth">
+                <div class="portfolio">
+                    <h1>PORTFOLIO</h1>
+                    <div class="work work1">WORK 1</div>
+                    <div class="work work2">WORK 2</div>
+                    <div class="work work3">WORK 3</div>
+                </div>
+            </div>
+        </section>
+        <section class="footer" id="footer">
+            <div class="maxWidth" id="maxWidth">
+                <div class="left-foot">
+                    <div class="lfc">
+                        <p> Join me in building a business that brings you happiness and purpose while helping clients achieve their dreams with authenticity. </p>
+
+                           <p> Contact me today, and let’s embark on this exciting adventure together.  </p>
+                    </div>
+                    <div class="lfc">
+                       <button class="wwmBtn">Let's Connect</button>
+                    </div>
+                    
+                        
+                </div>
+                <div class="right-foot">
+                    <div class="footer-logo">
+                        <a href="#head"><img src="images/logo.png" width="150px">
+                    </div>
+                                 
+                    <div class="social-icons">
+                        <div class="icon-background">
+                           
+                              <i class="fa-solid fa-envelope"></i>
+                            </a>
+                          </div>
+                          
+                          <div class="icon-background">
+                            <a href="https://github.com/mehakpreet-kaur-1ba133300" target="_blank">
+                              <i class="fa-brands fa-github"></i>
+                            </a>
+                          </div>
+                          
+                          <div class="icon-background">
+                            <a href="https://www.linkedin.com/in/mehakpreet-kaur-1ba133300" target="_blank">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                          
+                        </div>
+           
+
+                </div>
+                </div>
+
+        </section>
+        <footer>
+            Mehak &copy 2024. All rights Reserved
+        </footer>
+</body>
+<script>
+    let micon = document.querySelector(" .hamburger-menu");
+     let navbar = document.querySelector(".navbar");
+     micon.addEventListener('click', ()=> {
+       navbar.classList.toggle('showMenu');
+       micon.classList.toggle('fa-bars');
+       micon.classList.toggle('fa-xmark');
+     })
+   </script>
+</html>
